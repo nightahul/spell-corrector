@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1403055434 source:c:\users\hoder\documents\programming\spell corrector\main.cpp
+	"spellCorrector.h"
+	<iostream>
+
+1403050520 c:\users\hoder\documents\programming\spell corrector\spellcorrector.h
+	<vector>
+	<unordered_map>
+	<string>
+
+1403055356 source:c:\users\hoder\documents\programming\spell corrector\spellcorrector.cpp
+	<iostream>
+	<fstream>
+	<sstream>
+	<algorithm>
+	"spellCorrector.h"
+
