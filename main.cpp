@@ -9,17 +9,17 @@ int main()
 
 
     string request;
-    while (request != "quit")
-    {
-        cout << "Type one word\n";
+   for(int i=0;i<10;i++)
+   {
+        cout << "\nenter word to correct\n";
         cin >> request;
 
         string correct(corrector.correct_word(request));
 
         if (correct != "")
-            cout << "possible correction: " << correct << "\n\n\n";
+            cout << "possible correction: " << correct << "\n\n";
         else
-            cout << "No corrections available \n\n\n";
+            cout << "Sorry, no correction available \n\n";
     }
 
     return 0;
